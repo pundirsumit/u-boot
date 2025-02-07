@@ -28,6 +28,7 @@ config TARGET_J722S_R5_EVM
 
 endchoice
 
+source "board/beagle/beagleyai/Kconfig"
 source "board/ti/j722s/Kconfig"
 
 endif
